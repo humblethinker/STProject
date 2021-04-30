@@ -1,0 +1,54 @@
+Overall Result: Pass
+------------------------------------------------------------
+'30-04-2021 19:12:00' - Executing test: 'Swayam - Desktop (Edge)', path: 'Swayam - Desktop (Edge).tstest.'
+'30-04-2021 19:12:00' - Using .Net Runtime version: '4.0.30319.42000' for test execution. Build version is '2021.1.330.0'.
+'30-04-2021 19:12:00' - Starting execution....
+------------------------------------------------------------
+'30-04-2021 19:12:00' - Tip: The current monitor(s) setup is not at 100% scale!
+For best recording and execution experience please set all monitor scaling to 100%.
+------------------------------------------------------------
+------------------------------------------------------------
+'30-04-2021 19:12:05' - Using 'EdgeChromium' version '90.0.818.49' as default browser. 
+'30-04-2021 19:12:05' - Emulating device with resolution of 1588x1210 and user agent ''. 
+'30-04-2021 19:12:05' - Using 'http://demos.teststudio.com/sampleapp' as base url.
+'30-04-2021 19:12:07' - 'Pass' : 1. Navigate to : 'https://swayam.gov.in'
+'30-04-2021 19:12:08' - 'Pass' : 2. Click 'ButtonTag'
+'30-04-2021 19:12:08' - 'Pass' : 3. Enter text 'ethics' in 'HeaderSearchQueryText'
+'30-04-2021 19:12:11' - 'Pass' : 4. Keyboard (KeyPress) - Enter (1 times) on 'HeaderSearchQueryText'
+'30-04-2021 19:12:15' - 'Pass' : 5. Click 'NIeCer102StrongTag'
+'30-04-2021 19:12:38' - 'Pass' : 6. Click 'NationalLink'
+	Warning: Unable to locate element by Find Expression!
+	Attempting to find [Html] element using 
+	Find logic 
+	 (Html): [href 'Exact' /nc_details/] AND [tagname 'Exact' a]
+	
+	Unable to locate element. Search failed!
+	
+	Element was found only using Image search!
+	We recommend editing the element to correct the primary find expression.
+'30-04-2021 19:12:54' - 'Pass' : 7. Click 'LocalChaptersLink'
+	Warning: Unable to locate element by Find Expression!
+	Attempting to find [Html] element using 
+	Find logic 
+	 (Html): [href 'Exact' https://nptel.ac.in/LocalChapter/] AND [tagname 'Exact' a]
+	
+	Unable to locate element. Search failed!
+	
+	Element was found only using Image search!
+	We recommend editing the element to correct the primary find expression.
+'30-04-2021 19:13:11' - 'Pass' : 8. Click 'AllCoursesLink'
+	Warning: Unable to locate element by Find Expression!
+	Attempting to find [Html] element using 
+	Find logic 
+	 (Html): [tagname 'Exact' a] AND [TextContent 'Exact' All Courses]
+	
+	Unable to locate element. Search failed!
+	
+	Element was found only using Image search!
+	We recommend editing the element to correct the primary find expression.
+------------------------------------------------------------
+'30-04-2021 19:13:11' - Overall Result: Pass
+'30-04-2021 19:13:11' - Duration: [1 min: 6 sec: 223 msec]
+------------------------------------------------------------
+'30-04-2021 19:13:12' - Test completed!
+

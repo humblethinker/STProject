@@ -1,0 +1,55 @@
+Overall Result: Fail
+------------------------------------------------------------
+'30-04-2021 19:36:16' - Executing test: 'Swayam - OnePlus', path: 'Swayam - OnePlus.tstest.'
+'30-04-2021 19:36:16' - Using .Net Runtime version: '4.0.30319.42000' for test execution. Build version is '2021.1.330.0'.
+'30-04-2021 19:36:16' - Starting execution....
+------------------------------------------------------------
+'30-04-2021 19:36:16' - Tip: The current monitor(s) setup is not at 100% scale!
+For best recording and execution experience please set all monitor scaling to 100%.
+------------------------------------------------------------
+------------------------------------------------------------
+'30-04-2021 19:36:22' - Using 'Chrome' version '90.0.4430.93' as default browser. 
+'30-04-2021 19:36:22' - Emulating device with resolution of 412x892 and user agent 'Mozilla/5.0 (Linux; Android 10; GM1913) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Mobile Safari/537.36'. 
+'30-04-2021 19:36:22' - Using 'http://demos.teststudio.com/sampleapp' as base url.
+'30-04-2021 19:36:25' - 'Pass' : 1. Navigate to : 'https://swayam.gov.in'
+'30-04-2021 19:36:25' - 'Pass' : 2. Click 'ButtonTag'
+'30-04-2021 19:36:26' - 'Pass' : 3. Click 'ButtonTag0'
+'30-04-2021 19:36:26' - 'Pass' : 4. Enter text 'Deep' in 'HeaderSearchQueryText'
+'30-04-2021 19:36:27' - 'Pass' : 5. Keyboard (KeyPress) - Enter (1 times) on 'HeaderSearchQueryText'
+'30-04-2021 19:36:43' - 'Fail' : 6. Click 'Image'
+------------------------------------------------------------
+Failure Information: 
+~~~~~~~~~~~~~~~
+Unable to locate element by Find Expression!
+Attempting to find [Html] element using 
+Find logic 
+ (Html): [id 'Exact' open][tagIndex 'Exact' img:6]
+
+Unable to locate element. Search failed!
+
+
+Exception thrown while finding elements by image 'Click 'Image''. Exception 'System.NullReferenceException: Object reference not set to an instance of an object.
+   at ArtOfTest.WebAii.Core.Find.<MatchAndProcess>d__11`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at ArtOfTest.WebAii.Core.Find.<ByImageAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at ArtOfTest.WebAii.Core.Find.<>c__DisplayClass15_0.<<ByImage>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at ArtOfTest.WebAii.Core.Find.ByImage(Image image, Double score, Int32 index, Boolean autoScroll, Point probeOffset, Int32 timeout, Single imageScale, Int32 searchDelay)
+   at ArtOfTest.WebAii.Design.Execution.ExecutionUtils.FindElementByImageInternal(IAutomationHost targetHost, ElementDescriptor descriptor, TestElementImageStore imageStore, Int32 timeout, Int32 delay, ImageSearchClause& usedCluase, String& error)
+   at ArtOfTest.WebAii.Design.Execution.ExecutionUtils.FindTargetsByImage(IAutomationHost targetHost, AutomationDescriptor baseDescriptor, Int32 timeout, Int32 delay)'Learn more about finding elements here:
+http://docs.telerik.com/teststudio/troubleshooting-guide/test-execution-problems-tg/unable-to-locate-element
+------------------------------------------------------------
+'30-04-2021 19:36:43' - Detected a failure. Step is marked 'ContinueOnFailure=False' aborting test execution.
+------------------------------------------------------------
+'30-04-2021 19:36:43' - Overall Result: Fail
+'30-04-2021 19:36:43' - Duration: [0 min: 21 sec: 155 msec]
+------------------------------------------------------------
+'30-04-2021 19:36:44' - Test completed!
+
